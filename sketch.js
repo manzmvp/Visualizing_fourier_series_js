@@ -4,10 +4,11 @@ let input, button, greeting;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   title = createElement('h1','Fourier Series');
+  title.position(560,1)
   n_value = createElement('h2', 'Enter N value: ');
-  n_value.position(20, 5);
+  n_value.position(20, 65);
   input = createInput();
-  input.position(20, 65);
+  input.position(20, 125);
 }
 function draw() {
   background(255);
